@@ -1,0 +1,61 @@
+
+ 
+  div {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  h2 {
+   
+    margin: 0; /* Remove default margin */
+    text-align: center;
+    color:rgba(77, 255, 216, 0.7);
+  }
+  
+  h3 {
+ 
+    margin: 0 0 1rem 0; /* Add margin below the paragraph */
+    text-align: center; /* Center the text */
+    color:white;
+  }
+ 
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgba(77, 255, 216, 0.7); /* Green border */
+    border-radius: 4px;
+    background-color: #333; /* Darker grey background for input fields */
+    color: rgba(77, 255, 216, 0.7); /* Green text */
+  }
+form {
+    background-color: rgba(17, 17, 27, 0.895); /* Dark grey background for the form */
+    color: rgba(77, 255, 216, 0.7); /* Green text */
+    max-width: 400px;
+    margin: 0 auto;
+    position:relative;
+    top:100px;
+    padding: 2rem;
+    border: 1px solid rgba(77, 255, 216, 0.7); /* Green border */
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgba(77, 255, 216, 0.7); /* Green background */
+    color: rgba(17, 17, 27, 0.895); /* Black text */
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center; /* Center the button */
+  }
+  
+  button:hover {
+    background-color: rgba(207, 233, 228, 0.7); /* Darker green background on hover */
+  }

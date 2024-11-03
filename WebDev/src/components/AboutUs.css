@@ -1,0 +1,30 @@
+/* AboutUs.css */
+.about-us-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns the box to the right */
+  padding: 20px; /* Optional padding for better spacing */
+}
+
+.about-us-box {
+  width: 66.67%; /* Occupying two-thirds of the width */
+  background-color: rgba(46, 46, 46, 0.9); /* Light background for readability */
+  border: 0px solid #ccc; /* Optional border */
+  border-top-left-radius: 30px; /* Rounded top-left corner */
+  border-bottom-right-radius: 30px; /* Rounded bottom-right corner */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.146); /* Shadow for a modern look */
+  margin-left: 20px; /* Spacing from the left */
+  color: rgb(54, 255, 198); /* Text color for visibility */
+}
+
+.about-us-box h2,
+.about-us-box p {
+  color: rgb(255, 255, 255); /* Heading and paragraph text color */
+}
+.about-us-box h2 {
+  color: rgb(255, 255, 255); /* Change text color to green */
+  font-size: 2rem; /* Adjust font size */
+  margin: 10px 0; /* Add margin for spacing */
+  text-align: left; /* Align text to the left */
+  text-shadow: 1px 1px  rgb(62, 249, 255); /* Optional: add a purple shadow */
+}

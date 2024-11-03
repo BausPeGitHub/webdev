@@ -1,0 +1,20 @@
+.home {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center; /* Center items horizontally */
+    height: calc(100vh - 20px); /* Adjust to full viewport height minus navbar height */
+    padding-top: 20px; /* Spacing from the top */
+  }
+  
+  .home-title {
+    font-size: 2.5rem; /* Adjust title size */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .home-description {
+    font-size: 1.2rem; /* Adjust description size */
+    text-align: center; /* Center text */
+    margin-top: 10px; /* Spacing above the description */
+  }
+  
