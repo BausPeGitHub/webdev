@@ -27,7 +27,7 @@ const formSchema = new mongoose.Schema({
 
 const FormData = mongoose.model('FormData', formSchema);
 
-app.post('/form-data', async (req, res) => {
+app.post('/', async (req, res) => {
     const { name, email, message } = req.body;
 
     if (!name || !email || !message) {
@@ -43,7 +43,7 @@ app.post('/form-data', async (req, res) => {
     }
 });
 
-app.get('/form-data', async (req, res) => {
+app.get('/', async (req, res) => {
     try {
         const formData = await FormData.find();
         res.status(200).json(formData);
