@@ -12,14 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 const mongoose = require('mongoose');
 
-if(process.argv.length < 3){
-    console.log('Password needed!')
-    process.exit(1)
-}
-
-const password = process.argv[2]
-
-const url = `mongodb+srv://eduardcavasi:${password}@cluster0.wz44z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+const url = `mongodb+srv://eduardcavasi:${process.env.PASSWORD}@cluster0.wz44z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 
 mongoose.set('strictQuery', false)
 
